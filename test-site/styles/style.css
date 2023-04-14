@@ -1,0 +1,67 @@
+/* 类选择器 */
+/* .imgSize {
+    width: 200px;
+    height: 200px;
+} */
+
+/* 元素选择器 */
+/* p, li, ol {
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    width: 500px;
+    border: 1px solid rgb(238, 233, 233);
+    background-color: antiquewhite;
+} */
+
+/* ID选择器 */
+/* #my-h1 {
+    color: brown;
+} */
+
+html {
+    /* px 表示“像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 10px;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(177, 51, 51);
+    background-color: azure;
+}
+
+body {
+    width: 600px;
+    /* 外边框 */
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 10px 20px 20px 20px;
+    border: 5px solid rgb(99, 165, 116);
+    border-radius: 5%;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+    color: #00539F;
+    margin: 0;
+    padding: 20px 0;
+}
+
+p, li, ol {
+    font-size: 16px;
+    /* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+    line-height: 2;
+    /* 字母间距 */
+    letter-spacing: 1px; 
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #BC76BC;
+    border-radius: 20%;
+    border: 2px solid #BC76BC;
+}
+  
